@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EStimSystems.B2", "src\EStimSystems.B2\EStimSystems.B2.csproj", "{1C532B92-7233-450F-87A4-12B1318D0224}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EStimSystems.B2.Example", "src\EStimSystems.B2.Example\EStimSystems.B2.Example.csproj", "{DE0487F6-F39A-4E61-86EA-15097F12E31F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EStimSystems.B2.Tests", "tests\EStimSystems.B2.Tests\EStimSystems.B2.Tests.csproj", "{74699DF9-F6ED-44F5-AA00-2B1A594C034D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1C532B92-7233-450F-87A4-12B1318D0224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C532B92-7233-450F-87A4-12B1318D0224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C532B92-7233-450F-87A4-12B1318D0224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0487F6-F39A-4E61-86EA-15097F12E31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0487F6-F39A-4E61-86EA-15097F12E31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0487F6-F39A-4E61-86EA-15097F12E31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0487F6-F39A-4E61-86EA-15097F12E31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74699DF9-F6ED-44F5-AA00-2B1A594C034D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74699DF9-F6ED-44F5-AA00-2B1A594C034D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74699DF9-F6ED-44F5-AA00-2B1A594C034D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74699DF9-F6ED-44F5-AA00-2B1A594C034D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@ namespace EStimSystems.B2;
 
 public class B2ClientFactory
 {
-    public B2Client CreateClient(string comPort)
+    public IB2Client CreateClient(string comPort)
     {
         // 9600/8/N/1
         var serialPort = new SerialPort(comPort, 9600, Parity.None, 8, StopBits.One)

@@ -4,7 +4,23 @@ using EStimSystems.B2.Internal;
 
 namespace EStimSystems.B2
 {
-    public class B2Client : IDisposable
+    public interface IB2Client : IDisposable
+    {
+        B2Status GetStatus();
+        B2Status SetChannelALevel(int level);
+        B2Status SetChannelBLevel(int level);
+        B2Status SetChannelCLevel(int level);
+        B2Status SetChannelDLevel(int level);
+        B2Status SetPowerModeHigh();
+        B2Status SetPowerModeLow();
+        B2Status JoinChannels();
+        B2Status UnJoinChannels();
+        B2Status ResetChannelsABLevels();
+        B2Status ResetToDefaults();
+        B2Status SetMode(B2Mode mode);
+    }
+
+    public class B2Client : IB2Client
     {
         private readonly SerialPort _serialPort;
         private readonly IResponseDecoder _responseDecoder;

@@ -9,4 +9,6 @@ var comPort = factory.DiscoverComPorts().Single();
 using var client = factory.CreateClient(comPort);
 var status = client.GetStatus();
 Console.WriteLine(status);
+
+# B2Response { Duration = 00:00:00.0422755, Data = B2Status { BatteryLevel = 91%, ChannelALevel = 0%, ChannelBLevel = 0%, ChannelCLevel = 50%, ChannelDLevel = 32%, Mode = SineWave, PowerSetting = High, AreChannelsJoined = False, FirmwareVersion = 2.106 } }
 ```
